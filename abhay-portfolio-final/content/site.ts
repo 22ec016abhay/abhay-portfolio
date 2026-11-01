@@ -24,6 +24,14 @@ export const skillGroups = [
 
 export const projects: Project[] = [
   {
+    name: "Recruitment Funnel & Source-of-Hire Dashboard",
+    description: "End-to-end recruitment analytics on synthetic data: a SQLite pipeline, Power BI and Streamlit dashboards, and three AI components tested with offline unit tests and live evaluations, including the failed runs.",
+    technologies: ["Python", "SQL", "Power BI", "Streamlit", "Generative AI"],
+    focus: "Recruitment analytics & AI",
+    githubUrl: "https://github.com/22ec016abhay/recruitment-funnel-dashboard",
+    icon: "ai",
+  },
+  {
     name: "Customer 360 E-commerce Intelligence",
     description: "An end-to-end e-commerce analytics project focused on customer behavior, retention signals, and a clearer view of business performance.",
     technologies: ["Python", "SQL", "Power BI"],
