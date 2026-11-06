@@ -16,10 +16,11 @@ export const profile = {
 
 export const skillGroups = [
   { name: "Programming", skills: ["Python", "SQL"] },
-  { name: "Data analysis", skills: ["NumPy", "Pandas", "Matplotlib"] },
-  { name: "Business intelligence", skills: ["Power BI", "Microsoft Excel"] },
-  { name: "Databases", skills: ["PostgreSQL", "MySQL"] },
-  { name: "Tools", skills: ["Git", "GitHub", "Jupyter", "VS Code"] },
+  { name: "Data analysis", skills: ["Pandas", "NumPy", "Data Cleaning", "Exploratory Data Analysis", "Statistical Analysis"] },
+  { name: "Generative AI & LLMs", skills: ["LLM Integration (Groq API)", "Prompt Design", "Structured Output Validation", "Text-to-SQL", "AI Evaluation"] },
+  { name: "Visualization & BI", skills: ["Power BI", "DAX", "Power Query", "Streamlit", "Matplotlib"] },
+  { name: "Databases", skills: ["PostgreSQL", "SQLite"] },
+  { name: "Tools & testing", skills: ["unittest", "pytest", "Git", "GitHub", "Jupyter", "OpenPyXL", "Microsoft Excel"] },
 ];
 
 export const projects: Project[] = [
